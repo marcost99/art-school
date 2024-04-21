@@ -1,3 +1,55 @@
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.image-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px
+      rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-actions{
+  width: 120px;
+  margin: 5px;
+}
+
+.icon-view {
+  height: 20px;
+}
+
 .App {
   text-align: center;
 }
